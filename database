@@ -1,0 +1,62 @@
+Basic commands are classified into 3:
+
+DDL - Data Definition Language
+   CREATE        - create table and db
+   ALTER         - update table structure
+   DROP          - remove a table or db
+   TRUNCATE      - empty a table
+   RENAME        - rename a table
+                 
+DML - Data Manipulation Language
+   INSERT        - Add data to a table
+   UPDATE        - update an existing data
+   DELETE        - Remove an existing data
+                   
+DQL - Data Query Language
+   SELECT        - data retreive
+
+SQLite
+Data Types
+    1. INTEGER
+    2. REAL
+    3. TEXT
+    4. NULL
+    5. BLOB
+
+Constraints
+1. PRIMARY KEY
+2. AUTOINCREMENT
+3. NOT NULL
+4. UNIQUE
+5. FOREIGN KEY
+6. DEFAULT
+7. CHECK
+
+CREATE TABLE student (
+field_name data_type constraints,
+field_name data_type constraints,
+field name data_type constraints,)
+
+INSERT INTO table_name
+(field2, feild3)
+VALUES (value1, value2)
+
+SELECT field_name1, field_name2 or *
+FROM table_name
+WHERE conditions
+
+UPDATE table_name
+SET field_name = value
+WHERE conditions
+
+DELETE
+FROM table_name
+WHERE conditions
+
+Aggregate functions
+COUNT() - No. of rows
+AVG(field_name)
+SUM(field_name)
+MIN(field_name)
+MAX(field_name)
+
