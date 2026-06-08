@@ -87,13 +87,13 @@ data = cursor.fetchall()
 for row in data:
     print(row)
 
-cursor.execute("""
-    UPDATE employees
-    SET department = 'Engineering'
-    WHERE employee_id = 1
-""")
-conn.commit()
-print("Employee moved successfully.")
+# cursor.execute("""
+#     UPDATE employees
+#     SET department = 'Engineering'
+#     WHERE employee_id = 1
+# """)
+# conn.commit()
+# print("Employee moved successfully.")
 
 cursor.execute("""
     UPDATE employees
@@ -103,12 +103,12 @@ cursor.execute("""
 conn.commit()
 print("Salary updated successfully.")
 
-cursor.execute("""
-    DELETE FROM department
-    WHERE department_name = 'Sales'
-""")
-conn.commit()
-print("Sales department deleted successfully.")
+# cursor.execute("""
+#     DELETE FROM department
+#     WHERE department_name = 'Sales'
+# """)
+# conn.commit()
+# print("Sales department deleted successfully.")
 
 cursor.execute("""
     SELECT *
