@@ -1,12 +1,11 @@
 from pymongo import MongoClient
 
-
 client = MongoClient("mongodb+srv://Abhiram:ms6q5zWQ13Aur9bH@cluster0.eybperp.mongodb.net/?appName=Cluster0")
 db = client['synnfo_school']
 collection = db['students']
 
 student = {"name":"Amal","course":"Python","std_id":"SYN001"}
-# print(type(student))
+
 students = [
     {"name":"Nijin","course":"MERN","std_id":"SYN002"},
     {"name":"Aswin","course":"Flutter","std_id":"SYN003"},
